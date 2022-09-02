@@ -1,0 +1,52 @@
+
+
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Silkscreen', cursive;
+}
+
+
+#endGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  /* border: 1px solid #ff8899; This can be used to test it out.*/ 
+}
+
+
+#endGame > * {
+  font-size: 2em;
+  font-family: 'Silkscreen', cursive;
+}
+
+
+#startGame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#startGame > * {
+  font-size: 2em;
+  font-family: 'Silkscreen', cursive;
+}
+
+#score{
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  font-family: 'Silkscreen', cursive;
+  padding: 10px;
+  /* border: 1px solid #ff8899; */
+}
